@@ -1,0 +1,19 @@
+body {
+
+}
+
+.header {
+  border: 1px, solid, #ECECEC;
+  background-color: #ffffff;
+}
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.header > li:hover {
+  color: #2196F3
+}
