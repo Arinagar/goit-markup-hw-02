@@ -7,9 +7,9 @@ body {
 
 }
 
-/* .header {
-  border: 1px solid #ECECEC;
-} */
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
 .logo {
     font-family: 'Raleway';
     font-size: 26px;
