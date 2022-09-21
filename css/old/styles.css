@@ -1,26 +1,14 @@
 body {
- --main-background-color: #ffffff;
- --first-background-color: #2f303a;
- --second-background-color: #F5F4FA;
- --main-color: black;
- --first-color: #2196F3;
- --second-color: #757575;
- --third-color: rgba(255, 255, 255, 60%);
- --border-color: #ECECEC;
-
+ background-color: #ffffff;
  font-family: 'Roboto', 'Raleway', sans-serif;
+ color:black;
  font-size: 14px;
  letter-spacing: 0.03em;
-}
-/* UTILITIES */
-.list {
-  list-style: none;
-}
 
-/* HEADER */
+}
 
 .header {
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid #ECECEC;
 }
 .logo {
     font-family: 'Raleway';
@@ -30,30 +18,17 @@ body {
     text-align: left;
 }
 .logo span {
-  color: var(--first-color);
+  color: #2196F3;
 }
 .logo:visited {
-  color: var(--main-color)
+  color: #000000;
 }
-.header .logo, .current, .p-link, .c-link, .mail, .tel, .s-link  {
+.header  ul a:hover, ul a:focus {
+  color: #2196F3
+}
+.header a {
   text-decoration: none;
 }
-.header .logo, .current, .p-link, .c-link, .s-link {
-  color: var(--main-color)
-}
-.header .mail {
-  color: var(--first-color);
-}
-.header .tel {
-  color: var(--second-color);
-}
-.header .page-navigation .list .item:hover, .page-navigation .list .item:focus {
-  color: var(--first-color);
-}
-.header .current {
-  color: var(--first-color);
-}
-/*
 .page-navigation li {
   font-weight: 500;
   line-height: 1.14;
@@ -157,4 +132,3 @@ color: #757575;
     line-height: 1.18;
     color:#757575
 }
-*/
