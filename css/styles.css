@@ -1,15 +1,16 @@
+:root {
+  --main-background-color: #ffffff;
+  --first-background-color: #2f303a;
+  --second-background-color: #F5F4FA;
+  --third-background-color: #2196F3;
+  --main-color: black;
+  --first-color: #2196F3;
+  --second-color: #757575;
+  --third-color: rgba(255, 255, 255, 60%);
+  --fourth-color: white;
+  --border-color: #ECECEC;
+}
 body {
- --main-background-color: #ffffff;
- --first-background-color: #2f303a;
- --second-background-color: #F5F4FA;
- --third-background-color: #2196F3;
- --main-color: black;
- --first-color: #2196F3;
- --second-color: #757575;
- --third-color: rgba(255, 255, 255, 60%);
- --fourth-color: white;
- --border-color: #ECECEC;
-
  font-family: 'Roboto', 'Raleway', sans-serif;
  font-size: 14px;
  letter-spacing: 0.03em;
@@ -51,7 +52,10 @@ body {
 .header .current {
   color: var(--first-color);
 }
-.header .list .item a:hover, a:focus {
+.contact:hover, .contact:focus {
+  color: var(--first-color);
+}
+.a-tohover:hover, .a-tohover:focus {
   color: var(--first-color);
 }
 .header .list .item {
