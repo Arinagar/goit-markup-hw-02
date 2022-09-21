@@ -165,7 +165,7 @@ body {
 }
 
 .footer .logo:visited {
-  color: var(--main-color)
+  color: var(--fourth-color);
 }
 
 .footer .coor {
